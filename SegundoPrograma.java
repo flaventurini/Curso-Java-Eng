@@ -13,7 +13,7 @@ class SegundoPrograma
       n1 = Integer.parseInt(entrada[0]);
       n2 = Integer.parseInt(entrada[1]);
       //processamento
-      soma = n1 + n2
+      soma = n1 + n2;
       //saída de resultados
       System.out.println(n1 + " + " + n2 + " = " + soma);
       System.exit(0);
