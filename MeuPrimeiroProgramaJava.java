@@ -9,6 +9,7 @@ class MeuPrimeiroProgramaJava
    //declaração de variáveis
     int inteiro = 29;
     double real = 1.62;
+    char caracter = 'F';
     String frase = "Flávia Venturini ";
     boolean VF = true;
 
