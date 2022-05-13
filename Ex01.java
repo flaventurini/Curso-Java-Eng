@@ -10,10 +10,10 @@ class Ex01
     int idade = 29;
     double peso = 65.5;
     char genero = 'F';
-    String nome = "Flávia Venturini ";
+    String nome = "Flávia Venturini de Castro";
     String curso = "Engenharia de Computação";
 
-    System.out.println("Eu sou a " + nome + ", tenho " + idade + " anos, tenho " + peso + "kg de peso e faço " + curso); 
+    System.out.println("Eu sou a " + nome + ", tenho " + idade + " anos, tenho " + peso + "kg de peso, meu gênero é " + genero + " e faço " + curso); 
 
     System.exit(0);
   }
