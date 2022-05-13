@@ -13,7 +13,7 @@ class Ex01
     String nome = "Flávia Venturini ";
     String curso = "Engenharia de Computação";
 
-    System.out.println("Eu sou a " + nome + "tenho " + idade + " anos e tenho " + peso + "kg de peso e faço " + curso); 
+    System.out.println("Eu sou a " + nome + ", tenho " + idade + " anos, tenho " + peso + "kg de peso e faço " + curso); 
 
     System.exit(0);
   }
