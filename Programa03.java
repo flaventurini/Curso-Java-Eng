@@ -12,7 +12,7 @@ class Programa03
 
     //entrada de dados
     n1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um número inteiro"));
-    n2 = IInteger.parseInt(JOptionPane.showInputDialog("Digite outro número inteiro"));
+    n2 = Integer.parseInt(JOptionPane.showInputDialog("Digite outro número inteiro"));
 
     //processamento
     mod = n1 % n2;
