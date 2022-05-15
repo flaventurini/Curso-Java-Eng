@@ -8,7 +8,7 @@ class ProgRepeticao
     //declaração de variáveis
     int tabuada;
     char op=0;
-    String msg="", msgEntr="Digite 1 repetição for\nDigite 2 para repetição while\nDigite 3 para repetição do/while";
+    String msg="", msgEntr="Digite 1 para repetição for\nDigite 2 para repetição while\nDigite 3 para repetição do/while";
 
     //entrada de dados
     tabuada = Integer.parseInt(JOptionPane.showInputDialog("Digite um número inteiro"));
