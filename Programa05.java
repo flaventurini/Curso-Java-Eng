@@ -20,11 +20,8 @@ class Programa05
     {
       case '1':
       {
-        if (n1%2==0 && n2%2==0)
-        {
-          soma = n1 + n2;
-          msg = msg + "Soma de " + n1 + " por " + n2 + " = " + soma + "\n\n";
-        }
+        soma = n1 + n2;
+        msg = msg + "Soma de " + n1 + " por " + n2 + " = " + soma + "\n\n";
         break;
       }
       case '2':
