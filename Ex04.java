@@ -1,11 +1,11 @@
-//salvar como Programa07.java
+//salvar como Ex04.java
 import javax.swing.*;
 
-class Programa07
+class Ex04
 {
-  public static void soma() 
+  public static void soma(int vet[]) 
   {
-    int s=0, vet[] = {1, 2, 3, 4, 5};
+    int s=0;
     
     for (int i=0; i<vet.length; i++)
     {
@@ -15,9 +15,9 @@ class Programa07
     JOptionPane.showMessageDialog(null, "A somatória é " + s);
   }
 
-  public static int produto() 
+  public static int produto(int vet[]) 
   {
-    int p=1, vet[]= {1, 2, 3, 4, 5};
+    int p=1;
 
     for (int i=0; i<vet.length; i++)
     {
@@ -29,10 +29,11 @@ class Programa07
 
   public static void main(String entrada[]) 
   {
+    int s=0, vetor[] = {2, 4, 6, 8, 10};
     int r;
 
-    soma();
-    r = produto();
+    soma(vetor);
+    r = produto(vetor);
     JOptionPane.showMessageDialog(null, "A produtória é " + r);
     System.exit(0);
   }
