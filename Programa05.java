@@ -37,7 +37,7 @@ class Programa05
     }
 
     //saída de resultado
-    if (op >= '1' && op <= '3')
+    if (op >= '1' && op <= '2')
     {
       JOptionPane.showMessageDialog(null, msg);
     }
